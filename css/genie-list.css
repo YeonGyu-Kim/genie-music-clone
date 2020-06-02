@@ -1,0 +1,79 @@
+.genie-list {
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-bottom: 200%;
+  width: 180px;
+  font-size: 14px;
+  border-right: solid 1px #d9d9d9;
+  float: left;
+  cursor: pointer;
+}
+
+.genie-list__name {
+  font-size: 40px;
+  font-family: Lobster;
+  font-weight: 500;
+  color: #0db6e5;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-right: 5px;
+}
+
+.genie-list__header {
+  display: flex;
+  align-items: center;
+}
+
+.genie-list__icon {
+  margin-left: 5px;
+  opacity: 0.5;
+}
+
+.genie-list__howToUse {
+  padding-bottom: 27px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.genie-list__cash {
+  margin-right: 10px;
+}
+
+.genie-chart__title,
+.genre-music__title,
+.recommend-music__title {
+  margin-left: 5px;
+  margin-right: 60px;
+}
+
+.genie-chart__list,
+.latest-music__list {
+  padding-left: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.latest-music__title {
+  margin-left: 8px;
+  margin-right: 63px;
+}
+
+.my-music__title {
+  margin-left: 8px;
+  margin-right: 58px;
+}
+
+.latest-music,
+.recommend-music {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+.genie-chart i,
+.latest-music i,
+.genre-music i,
+.recommend-music i,
+.my-music i {
+  opacity: 0.6;
+}

@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.header i {
+  opacity: 0.3;
+}
+.header .search-songs {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 17px;
+  border: 1px solid #b1b9ca;
+  border-radius: 20px;
+}
+.header .search-songs input:focus {
+  outline: none;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border: none;
+}
+
+.header .log-in {
+  display: flex;
+  align-items: center;
+}
+
+.header .log-in i {
+  font-size: 30px;
+}
+
+.header .log-in__click {
+  margin-left: 8px;
+  margin-right: 20px;
+  font-size: 15px;
+  opacity: 0.7;
+}
