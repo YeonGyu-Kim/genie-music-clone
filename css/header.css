@@ -16,6 +16,7 @@
   border: 1px solid #b1b9ca;
   border-radius: 20px;
 }
+
 .header .search-songs input:focus {
   outline: none;
 }
