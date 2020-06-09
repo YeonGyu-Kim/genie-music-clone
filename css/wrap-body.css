@@ -170,10 +170,51 @@
   float: left;
 }
 
+.wrap-body .fixed-bar {
+  display: flex;
+  position: fixed;
+  padding: 9px;
+  background-color: #f5f7fa;
+  bottom: 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+.wrap-body .fixed-bar__check-box {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.fixed-bar .listening,
+.add,
+.filling,
+.download {
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  padding: 8px 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.fixed-bar i {
+  padding-right: 2px;
+}
+
+.fixed-bar .checked-songs {
+  display: flex;
+  align-items: center;
+  padding-left: 1016px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
 .wrap-body__right {
   float: right;
   width: 300px;
-  height: 800px;
+  height: 950px;
   background-color: #888887;
   color: #ffffff;
 }

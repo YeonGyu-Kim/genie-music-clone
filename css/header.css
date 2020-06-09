@@ -29,6 +29,7 @@
 .header .log-in {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header .log-in i {
