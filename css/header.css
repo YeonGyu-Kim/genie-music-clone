@@ -26,6 +26,10 @@
   border: none;
 }
 
+.search-icon {
+  cursor: pointer;
+}
+
 .header .log-in {
   display: flex;
   align-items: center;
